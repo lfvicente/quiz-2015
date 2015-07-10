@@ -1,7 +1,7 @@
 // GET /quizes/question
 exports.question = function(req, res){
 	res.render('quizes/question', {pregunta: 'Capital de Grecia'});
-}
+};
 
 // GET /quizes/answer
 exports.answer = function(req, res){
@@ -10,4 +10,4 @@ exports.answer = function(req, res){
 	} else {
 		res.render('quizes/answer', {respuesta: 'Incorrecto'});
 	}
-}
+};
